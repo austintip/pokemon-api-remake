@@ -1,5 +1,5 @@
 {
-  "name": "pokemon-api-remake",
+  "name": "pokemon-api-remake-server",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.21.1",
-    "graphql": "^15.5.0"
+    "graphql": "^15.5.0",
+    "node": "^15.10.0"
   }
 }
