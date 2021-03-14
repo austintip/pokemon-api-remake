@@ -5,10 +5,20 @@ const typeDefs = gql`
 
     # This "Pokemon" type defines the queryable fields for every pokemon in our data source.
     
+    type Routes {
+
+    }
+
+    type Regions {
+        regions: []
+    }
+
     type Pokemon {
+    pokedex_number: Int!
     name: String!
     first_type: String!
     second_type: String
+    found_in:[String!]
     }
 
     # The "Query" type is special: it lists all of the available queries that
